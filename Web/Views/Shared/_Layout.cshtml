@@ -11,34 +11,37 @@
 <body>
     <header>
         <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
-            <div class="container-fluid">
-                <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">Web</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
-                        aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
-                    <ul class="navbar-nav flex-grow-1">
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Generoes" asp-action="Index">Generos</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Peliculas" asp-action="Index">Peliculas</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Subtituloes" asp-action="Index">Subtitulo</a>
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Tipoes" asp-action="Index">Tipo</a>
-                        </li>
-                        </li>
-                    </ul>
-                </div>
+            <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
+                <ul class="navbar-nav flex-grow-1">
+                    <div class="dropdown">
+                        <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Fut.Adoptados
+                        </button>
+                        <ul class="dropdown-menu" style="">
+                            <li><a class="dropdown-item" asp-area="" asp-controller=Gatos asp-action="Index">Fut.Adoptados</a></li>
+                            <li><a class="dropdown-item" asp-area="" asp-controller="Generoes" asp-action="Index">Género</a></li>
+                            <li><a class="dropdown-item" asp-area="" asp-controller="Vacunas" asp-action="Index">Vacunas</a></li>
+                            <li><a class="dropdown-item" asp-area="" asp-controller="Edades" asp-action="Index">Edades</a></li>                           
+                            <li><a class="dropdown-item" asp-area="" asp-controller="Enfermedades" asp-action="Index">Enfermedades</a></li>
+                            <li>----------------------</li>
+                            <li><a class="dropdown-item" asp-area="" asp-controller="Home" asp-action="SignOut">Salir</a></li>
+                        </ul>
+                    </div>
+
+                    &nbsp;
+
+                    <div class="dropdown">
+                        <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Fut.Adoptantes/Socios
+                        </button>
+                        <ul class="dropdown-menu" style="">
+                            <li><a class="dropdown-item" asp-area="" asp-controller="FutAdoptantes" asp-action="Index">Fut.Adoptantes</a></li>
+                            <li><a class="dropdown-item" asp-area="" asp-controller="MaloAdoptantes" asp-action="Index">Malo Adoptantes</a></li>
+                            <li><a class="dropdown-item" asp-area="" asp-controller="Socios" asp-action="Index">Socios</a></li>
+                        </ul>
+                    </div>
+
+                </ul>
             </div>
         </nav>
     </header>

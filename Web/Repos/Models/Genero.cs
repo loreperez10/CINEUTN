@@ -1,21 +1,20 @@
-﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel.DataAnnotations;
+﻿using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
-using Microsoft.EntityFrameworkCore;
 
-namespace Web.Repos.Models;
-
-[Table("Genero")]
-public partial class Genero
+namespace Web.Repos.Models
 {
-    [Key]
-    [Column("ID")]
-    public int Id { get; set; }
+    [Table("Genero")]
 
-    [StringLength(50)]
-    public string Descripcion { get; set; } = null!;
+    public class Genero
+    {
+        [Key]
+        [Column("ID")]
+        public int Id { get; set; }
 
-    [Column(TypeName = "smalldatetime")]
-    public DateTime? FechaRegistro { get; set; }
+        [StringLength(50)]
+        public string Descripcion { get; set; } = null!;
+
+        [Column(TypeName = "smalldatetime")]
+        public DateTime? FechaRegistro { get; set; }
+    }
 }

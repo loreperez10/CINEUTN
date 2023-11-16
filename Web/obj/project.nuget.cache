@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "LsNkNpnMh08ehfbGS4vaN9r5xyprFn/+uenyycaZazkOhh5jxaHa6+jBELl1t3wWGsmzDD+TwZn9EZcvcPCpKA==",
+  "dgSpecHash": "WVlS/Scv9T29n/x76j/KvBUNRfH3JwDMsDK4SEt44MkQTDszkKuv2z+Alxey2+Oy7jJ5ks4gCNQmipRIHgKaiA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\usuario\\OneDrive\\Escritorio\\Laboratorio 4\\Web\\Web\\Web.csproj",
+  "projectFilePath": "C:\\Users\\usuario\\OneDrive\\Escritorio\\Laboratorio 4\\AdopcionesGarritasFelices\\CINEUTN\\Web\\Web.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\usuario\\.nuget\\packages\\azure.core\\1.25.0\\azure.core.1.25.0.nupkg.sha512",
     "C:\\Users\\usuario\\.nuget\\packages\\azure.identity\\1.7.0\\azure.identity.1.7.0.nupkg.sha512",
