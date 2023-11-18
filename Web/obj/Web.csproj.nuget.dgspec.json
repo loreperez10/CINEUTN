@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\usuario\\OneDrive\\Escritorio\\Laboratorio 4\\AdopcionesGarritasFelices\\CINEUTN\\Web\\Web.csproj": {}
+    "C:\\Users\\usuario\\OneDrive\\Escritorio\\Laboratorio 4\\CloneAdopcion\\CINEUTN\\Web\\Web.csproj": {}
   },
   "projects": {
-    "C:\\Users\\usuario\\OneDrive\\Escritorio\\Laboratorio 4\\AdopcionesGarritasFelices\\CINEUTN\\Web\\Web.csproj": {
+    "C:\\Users\\usuario\\OneDrive\\Escritorio\\Laboratorio 4\\CloneAdopcion\\CINEUTN\\Web\\Web.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\usuario\\OneDrive\\Escritorio\\Laboratorio 4\\AdopcionesGarritasFelices\\CINEUTN\\Web\\Web.csproj",
+        "projectUniqueName": "C:\\Users\\usuario\\OneDrive\\Escritorio\\Laboratorio 4\\CloneAdopcion\\CINEUTN\\Web\\Web.csproj",
         "projectName": "Web",
-        "projectPath": "C:\\Users\\usuario\\OneDrive\\Escritorio\\Laboratorio 4\\AdopcionesGarritasFelices\\CINEUTN\\Web\\Web.csproj",
+        "projectPath": "C:\\Users\\usuario\\OneDrive\\Escritorio\\Laboratorio 4\\CloneAdopcion\\CINEUTN\\Web\\Web.csproj",
         "packagesPath": "C:\\Users\\usuario\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\usuario\\OneDrive\\Escritorio\\Laboratorio 4\\AdopcionesGarritasFelices\\CINEUTN\\Web\\obj\\",
+        "outputPath": "C:\\Users\\usuario\\OneDrive\\Escritorio\\Laboratorio 4\\CloneAdopcion\\CINEUTN\\Web\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -50,15 +50,15 @@
             },
             "Microsoft.AspNetCore.Authentication.Google": {
               "target": "Package",
-              "version": "[7.0.13, )"
+              "version": "[7.0.12, )"
             },
             "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[7.0.13, )"
+              "version": "[7.0.12, )"
             },
             "Microsoft.AspNetCore.Identity.UI": {
               "target": "Package",
-              "version": "[7.0.13, )"
+              "version": "[7.0.12, )"
             },
             "Microsoft.EntityFrameworkCore.Design": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",

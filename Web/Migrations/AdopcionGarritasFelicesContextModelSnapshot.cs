@@ -17,7 +17,7 @@ namespace Web.Migrations
         {
 #pragma warning disable 612, 618
             modelBuilder
-                .HasAnnotation("ProductVersion", "7.0.13")
+                .HasAnnotation("ProductVersion", "7.0.12")
                 .HasAnnotation("Relational:MaxIdentifierLength", 128);
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder);
@@ -189,7 +189,7 @@ namespace Web.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("MaloAdoptantes");
+                    b.ToTable("MaloAdoptante");
                 });
 
             modelBuilder.Entity("Web.Repos.Models.Vacuna", b =>
