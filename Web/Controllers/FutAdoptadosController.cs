@@ -2,21 +2,26 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
+using Web.Models;
 using Web.Repos;
 using Web.Repos.Models;
+using Web.ViewModels;
 
 namespace Web.Controllers
 {
     public class FutAdoptadosController : Controller
     {
         private readonly AdopcionGarritasFelicesContext _context;
+        private readonly IWebHostEnvironment _webHostEnvironment;
 
-        public FutAdoptadosController(AdopcionGarritasFelicesContext context)
+        public FutAdoptadosController(AdopcionGarritasFelicesContext context, IWebHostEnvironment webHostEnvironment)
         {
             _context = context;
+            _webHostEnvironment = webHostEnvironment;
         }
 
         // GET: FutAdoptados
@@ -59,19 +64,46 @@ namespace Web.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("Id,Descripcion,ImagemPelicula,Clasificacion,GeneroRefId,EdadRefId,VacunaRefId,FechaRegistro")] FutAdoptado futAdoptado)
+        public async Task<IActionResult> Create(FutAdoptadoViewModels model)
         {
+            string uniqueFileName = UploadedFile(model);
+
             if (ModelState.IsValid)
             {
+                FutAdoptado futAdoptado = new FutAdoptado()
+                {
+                    ImagemPelicula = uniqueFileName,
+                    Clasificacion = model.Clasificacion,
+                    Descripcion = model.Descripcion,                              
+                    FechaRegistro = model.FechaRegistro,
+                    GeneroRefId = model.GeneroRefId,
+                    EdadRefId = model.EdadRefId,               
+
+                };
                 _context.Add(futAdoptado);
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
             }
-            ViewData["EdadRefId"] = new SelectList(_context.Edades, "Id", "Id", futAdoptado.EdadRefId);
-            ViewData["GeneroRefId"] = new SelectList(_context.Generos, "Id", "Id", futAdoptado.GeneroRefId);
-            return View(futAdoptado);
+            ViewData["EdadRefId"] = new SelectList(_context.Edades, "Id", "Id", model.EdadRefId);
+            ViewData["GeneroRefId"] = new SelectList(_context.Generos, "Id", "Id", model.GeneroRefId);
+            return View(model);
         }
+        private string UploadedFile(FutAdoptadoViewModels model)
+        {
+            string uniqueFileName = null;
 
+            if (model.Imagem != null)
+            {
+                string uploadsFolder = Path.Combine(_webHostEnvironment.WebRootPath, "images");
+                uniqueFileName = Guid.NewGuid().ToString() + "_" + model.Imagem.FileName;
+                string filePath = Path.Combine(uploadsFolder, uniqueFileName);
+                using (var fileStream = new FileStream(filePath, FileMode.Create))
+                {
+                    model.Imagem.CopyTo(fileStream);
+                }
+            }
+            return uniqueFileName;
+        }
         // GET: FutAdoptados/Edit/5
         public async Task<IActionResult> Edit(int? id)
         {
@@ -81,13 +113,25 @@ namespace Web.Controllers
             }
 
             var futAdoptado = await _context.FutAdoptados.FindAsync(id);
+
+            FutAdoptadoViewModels futAdoptadoViewModel = new FutAdoptadoViewModels()
+            {
+                
+                Clasificacion = futAdoptado.Clasificacion,
+                Descripcion = futAdoptado.Descripcion,
+                FechaRegistro = futAdoptado.FechaRegistro,
+                GeneroRefId = futAdoptado.GeneroRefId,
+                EdadRefId = futAdoptado.EdadRefId,
+
+            };
+
             if (futAdoptado == null)
             {
                 return NotFound();
             }
             ViewData["EdadRefId"] = new SelectList(_context.Edades, "Id", "Id", futAdoptado.EdadRefId);
             ViewData["GeneroRefId"] = new SelectList(_context.Generos, "Id", "Id", futAdoptado.GeneroRefId);
-            return View(futAdoptado);
+            return View(futAdoptadoViewModel);
         }
 
         // POST: FutAdoptados/Edit/5
@@ -95,9 +139,10 @@ namespace Web.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("Id,Descripcion,ImagemPelicula,Clasificacion,GeneroRefId,EdadRefId,VacunaRefId,FechaRegistro")] FutAdoptado futAdoptado)
+        public async Task<IActionResult> Edit(int id, FutAdoptadoViewModels model)
         {
-            if (id != futAdoptado.Id)
+            string uniqueFileName = UploadedFile(model);
+            if (id != model.Id)
             {
                 return NotFound();
             }
@@ -106,12 +151,23 @@ namespace Web.Controllers
             {
                 try
                 {
+                    var futAdoptado = await _context.FutAdoptados.FindAsync(id);
+
+
+                    futAdoptado.ImagemPelicula = uniqueFileName;
+                    futAdoptado.Clasificacion = model.Clasificacion;
+                    futAdoptado.Descripcion = model.Descripcion;
+                    futAdoptado.FechaRegistro = model.FechaRegistro;
+                    futAdoptado.GeneroRefId = model.GeneroRefId;
+                    futAdoptado.EdadRefId = model.EdadRefId;
+                   
+
                     _context.Update(futAdoptado);
                     await _context.SaveChangesAsync();
                 }
                 catch (DbUpdateConcurrencyException)
                 {
-                    if (!FutAdoptadoExists(futAdoptado.Id))
+                    if (!FutAdoptadoExists(model.Id))
                     {
                         return NotFound();
                     }
@@ -122,9 +178,9 @@ namespace Web.Controllers
                 }
                 return RedirectToAction(nameof(Index));
             }
-            ViewData["EdadRefId"] = new SelectList(_context.Edades, "Id", "Id", futAdoptado.EdadRefId);
-            ViewData["GeneroRefId"] = new SelectList(_context.Generos, "Id", "Id", futAdoptado.GeneroRefId);
-            return View(futAdoptado);
+            ViewData["EdadRefId"] = new SelectList(_context.Edades, "Id", "Id", model.EdadRefId);
+            ViewData["GeneroRefId"] = new SelectList(_context.Generos, "Id", "Id", model.GeneroRefId);
+            return View(model);
         }
 
         // GET: FutAdoptados/Delete/5

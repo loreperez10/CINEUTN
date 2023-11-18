@@ -4,7 +4,7 @@
     ViewData["Title"] = "Create";
 }
 
-<h1>Create</h1>
+<h1>Fut.Adoptado</h1>
 
 <h4>FutAdoptado</h4>
 <hr />
@@ -18,24 +18,27 @@
                 <span asp-validation-for="Descripcion" class="text-danger"></span>
             </div>
             <div class="form-group">
-                <label asp-for="ImagemPelicula" class="control-label"></label>
-                <input asp-for="ImagemPelicula" class="form-control" />
-                <span asp-validation-for="ImagemPelicula" class="text-danger"></span>
-            </div>
-          
+                <label asp-for="Imagem" class="control-label"></label>
+                <div class="custom-file">
+                    <input asp-for="Imagem" src="~/images/" class="custom-file-input" id="customFile">
+                    <label class="custom-file-label" for="customFile">Seleccione el archivo</label>
+                </div>
+                <span asp-validation-for="Imagem" class="text-danger"></span>
+            </div>                    
             <div class="form-group">
                 <label asp-for="GeneroRefId" class="control-label"></label>
-                <select asp-for="GeneroRefId" class ="form-control" asp-items="ViewBag.GeneroRefId"></select>
-            </div>
-            <div class="form-group">
-                <label asp-for="EdadRefId" class="control-label"></label>
-                <select asp-for="EdadRefId" class ="form-control" asp-items="ViewBag.EdadRefId"></select>
+                <select asp-for="GeneroRefId" class="form-control" asp-items="ViewBag.GeneroRefId"></select>
             </div>
             <div class="form-group">
                 <label asp-for="VacunaRefId" class="control-label"></label>
                 <input asp-for="VacunaRefId" class="form-control" />
                 <span asp-validation-for="VacunaRefId" class="text-danger"></span>
             </div>
+            <div class="form-group">
+                <label asp-for="EdadRefId" class="control-label"></label>
+                <select asp-for="EdadRefId" class="form-control" asp-items="ViewBag.EdadRefId"></select>
+            </div>
+
             <div class="form-group">
                 <label asp-for="FechaRegistro" class="control-label"></label>
                 <input asp-for="FechaRegistro" class="form-control" />
