@@ -5,7 +5,7 @@ using Web.Repos.Models;
 
 namespace Web.ViewModels
 {
-    public class FutAdoptantoViewModels
+    public class FutAdoptadoViewModels
     {
         public int Id { get; set; }
 
