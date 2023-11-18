@@ -16,6 +16,106 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Users\usuario\OneDrive\Escritorio\Laboratorio 4\CloneAdopcion\CINEUTN\Web
 build_property._RazorSourceGeneratorDebug = 
 
+[C:/Users/usuario/OneDrive/Escritorio/Laboratorio 4/CloneAdopcion/CINEUTN/Web/Views/Edades/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRWRhZGVzXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/usuario/OneDrive/Escritorio/Laboratorio 4/CloneAdopcion/CINEUTN/Web/Views/Edades/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRWRhZGVzXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/usuario/OneDrive/Escritorio/Laboratorio 4/CloneAdopcion/CINEUTN/Web/Views/Edades/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRWRhZGVzXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/usuario/OneDrive/Escritorio/Laboratorio 4/CloneAdopcion/CINEUTN/Web/Views/Edades/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRWRhZGVzXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/usuario/OneDrive/Escritorio/Laboratorio 4/CloneAdopcion/CINEUTN/Web/Views/Edades/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRWRhZGVzXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/usuario/OneDrive/Escritorio/Laboratorio 4/CloneAdopcion/CINEUTN/Web/Views/Enfermedades/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW5mZXJtZWRhZGVzXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/usuario/OneDrive/Escritorio/Laboratorio 4/CloneAdopcion/CINEUTN/Web/Views/Enfermedades/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW5mZXJtZWRhZGVzXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/usuario/OneDrive/Escritorio/Laboratorio 4/CloneAdopcion/CINEUTN/Web/Views/Enfermedades/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW5mZXJtZWRhZGVzXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/usuario/OneDrive/Escritorio/Laboratorio 4/CloneAdopcion/CINEUTN/Web/Views/Enfermedades/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW5mZXJtZWRhZGVzXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/usuario/OneDrive/Escritorio/Laboratorio 4/CloneAdopcion/CINEUTN/Web/Views/Enfermedades/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW5mZXJtZWRhZGVzXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/usuario/OneDrive/Escritorio/Laboratorio 4/CloneAdopcion/CINEUTN/Web/Views/FutAdoptados/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRnV0QWRvcHRhZG9zXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/usuario/OneDrive/Escritorio/Laboratorio 4/CloneAdopcion/CINEUTN/Web/Views/FutAdoptados/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRnV0QWRvcHRhZG9zXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/usuario/OneDrive/Escritorio/Laboratorio 4/CloneAdopcion/CINEUTN/Web/Views/FutAdoptados/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRnV0QWRvcHRhZG9zXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/usuario/OneDrive/Escritorio/Laboratorio 4/CloneAdopcion/CINEUTN/Web/Views/FutAdoptados/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRnV0QWRvcHRhZG9zXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/usuario/OneDrive/Escritorio/Laboratorio 4/CloneAdopcion/CINEUTN/Web/Views/FutAdoptados/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRnV0QWRvcHRhZG9zXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/usuario/OneDrive/Escritorio/Laboratorio 4/CloneAdopcion/CINEUTN/Web/Views/FutAdoptantes/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRnV0QWRvcHRhbnRlc1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/usuario/OneDrive/Escritorio/Laboratorio 4/CloneAdopcion/CINEUTN/Web/Views/FutAdoptantes/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRnV0QWRvcHRhbnRlc1xEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/usuario/OneDrive/Escritorio/Laboratorio 4/CloneAdopcion/CINEUTN/Web/Views/FutAdoptantes/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRnV0QWRvcHRhbnRlc1xEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/usuario/OneDrive/Escritorio/Laboratorio 4/CloneAdopcion/CINEUTN/Web/Views/FutAdoptantes/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRnV0QWRvcHRhbnRlc1xFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/usuario/OneDrive/Escritorio/Laboratorio 4/CloneAdopcion/CINEUTN/Web/Views/FutAdoptantes/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRnV0QWRvcHRhbnRlc1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/usuario/OneDrive/Escritorio/Laboratorio 4/CloneAdopcion/CINEUTN/Web/Views/Generos/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR2VuZXJvc1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/usuario/OneDrive/Escritorio/Laboratorio 4/CloneAdopcion/CINEUTN/Web/Views/Generos/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR2VuZXJvc1xEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/usuario/OneDrive/Escritorio/Laboratorio 4/CloneAdopcion/CINEUTN/Web/Views/Generos/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR2VuZXJvc1xEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/usuario/OneDrive/Escritorio/Laboratorio 4/CloneAdopcion/CINEUTN/Web/Views/Generos/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR2VuZXJvc1xFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/usuario/OneDrive/Escritorio/Laboratorio 4/CloneAdopcion/CINEUTN/Web/Views/Generos/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR2VuZXJvc1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/usuario/OneDrive/Escritorio/Laboratorio 4/CloneAdopcion/CINEUTN/Web/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
@@ -24,12 +124,52 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/usuario/OneDrive/Escritorio/Laboratorio 4/CloneAdopcion/CINEUTN/Web/Views/MaloAdoptantes/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFsb0Fkb3B0YW50ZXNcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/usuario/OneDrive/Escritorio/Laboratorio 4/CloneAdopcion/CINEUTN/Web/Views/MaloAdoptantes/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFsb0Fkb3B0YW50ZXNcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/usuario/OneDrive/Escritorio/Laboratorio 4/CloneAdopcion/CINEUTN/Web/Views/MaloAdoptantes/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFsb0Fkb3B0YW50ZXNcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/usuario/OneDrive/Escritorio/Laboratorio 4/CloneAdopcion/CINEUTN/Web/Views/MaloAdoptantes/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFsb0Fkb3B0YW50ZXNcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/usuario/OneDrive/Escritorio/Laboratorio 4/CloneAdopcion/CINEUTN/Web/Views/MaloAdoptantes/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFsb0Fkb3B0YW50ZXNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/usuario/OneDrive/Escritorio/Laboratorio 4/CloneAdopcion/CINEUTN/Web/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/usuario/OneDrive/Escritorio/Laboratorio 4/CloneAdopcion/CINEUTN/Web/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/usuario/OneDrive/Escritorio/Laboratorio 4/CloneAdopcion/CINEUTN/Web/Views/Vacunas/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVmFjdW5hc1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/usuario/OneDrive/Escritorio/Laboratorio 4/CloneAdopcion/CINEUTN/Web/Views/Vacunas/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVmFjdW5hc1xEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/usuario/OneDrive/Escritorio/Laboratorio 4/CloneAdopcion/CINEUTN/Web/Views/Vacunas/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVmFjdW5hc1xEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/usuario/OneDrive/Escritorio/Laboratorio 4/CloneAdopcion/CINEUTN/Web/Views/Vacunas/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVmFjdW5hc1xFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/usuario/OneDrive/Escritorio/Laboratorio 4/CloneAdopcion/CINEUTN/Web/Views/Vacunas/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVmFjdW5hc1xJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/usuario/OneDrive/Escritorio/Laboratorio 4/CloneAdopcion/CINEUTN/Web/Views/_ViewImports.cshtml]
