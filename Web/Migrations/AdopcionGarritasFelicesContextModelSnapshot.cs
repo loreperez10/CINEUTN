@@ -75,17 +75,14 @@ namespace Web.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
-                    b.Property<int?>("CiudadRefId")
-                        .HasColumnType("int");
-
-                    b.Property<int?>("Clasificacion")
-                        .HasColumnType("int");
-
                     b.Property<string>("Descripcion")
                         .HasMaxLength(50)
                         .HasColumnType("nvarchar(50)");
 
                     b.Property<int?>("EdadRefId")
+                        .HasColumnType("int");
+
+                    b.Property<int?>("EnfermedadRefId")
                         .HasColumnType("int");
 
                     b.Property<DateTime?>("FechaRegistro")
@@ -94,7 +91,7 @@ namespace Web.Migrations
                     b.Property<int?>("GeneroRefId")
                         .HasColumnType("int");
 
-                    b.Property<string>("ImagemPelicula")
+                    b.Property<string>("ImagemGato")
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<int?>("VacunaRefId")
@@ -102,11 +99,13 @@ namespace Web.Migrations
 
                     b.HasKey("Id");
 
-                    b.HasIndex("CiudadRefId");
-
                     b.HasIndex("EdadRefId");
 
+                    b.HasIndex("EnfermedadRefId");
+
                     b.HasIndex("GeneroRefId");
+
+                    b.HasIndex("VacunaRefId");
 
                     b.ToTable("FutAdoptado");
                 });
@@ -216,19 +215,25 @@ namespace Web.Migrations
 
             modelBuilder.Entity("Web.Repos.Models.FutAdoptado", b =>
                 {
-                    b.HasOne("Web.Repos.Models.Vacuna", "Vacuna")
-                        .WithMany()
-                        .HasForeignKey("CiudadRefId");
-
                     b.HasOne("Web.Repos.Models.Edad", "Edad")
                         .WithMany()
                         .HasForeignKey("EdadRefId");
+
+                    b.HasOne("Web.Repos.Models.Enfermedad", "Enfermedad")
+                        .WithMany()
+                        .HasForeignKey("EnfermedadRefId");
 
                     b.HasOne("Web.Repos.Models.Genero", "Genero")
                         .WithMany()
                         .HasForeignKey("GeneroRefId");
 
+                    b.HasOne("Web.Repos.Models.Vacuna", "Vacuna")
+                        .WithMany()
+                        .HasForeignKey("VacunaRefId");
+
                     b.Navigation("Edad");
+
+                    b.Navigation("Enfermedad");
 
                     b.Navigation("Genero");
 

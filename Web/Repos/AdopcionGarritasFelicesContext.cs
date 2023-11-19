@@ -13,15 +13,13 @@ public partial class AdopcionGarritasFelicesContext : DbContext
         : base(options)
     {
     }
-
     public virtual DbSet<Edad> Edades { get; set; }
     public virtual DbSet<Enfermedad> Enfermedades { get; set; }
-    public virtual DbSet<FutAdoptado> FutAdoptados { get; set; }
     public virtual DbSet<FutAdoptante> FutAdoptantes { get; set; }
     public virtual DbSet<Genero> Generos { get; set; }
     public virtual DbSet<MaloAdoptante> MaloAdoptantes { get; set; }
     public virtual DbSet<Vacuna> Vacunas { get; set; }
-
+    public virtual DbSet<FutAdoptado> FutAdoptados { get; set; }
 
 
     //protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)

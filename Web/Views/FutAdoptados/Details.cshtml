@@ -7,7 +7,7 @@
 <h1>Details</h1>
 
 <div>
-    <h4>FutAdoptado</h4>
+    <h4>Fut. Adoptado</h4>
     <hr />
     <dl class="row">
         <dt class = "col-sm-2">
@@ -17,10 +17,10 @@
             @Html.DisplayFor(model => model.Descripcion)
         </dd>
         <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.ImagemPelicula)
+            @Html.DisplayNameFor(model => model.ImagemGato)
         </dt>
         <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.ImagemPelicula)
+            @Html.DisplayFor(model => model.ImagemGato)
         </dd>
         <dt class = "col-sm-2">
             @Html.DisplayNameFor(model => model.Genero)
@@ -35,10 +35,16 @@
             @Html.DisplayFor(model => model.Edad.Id)
         </dd>
         <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.VacunaRefId)
+            @Html.DisplayNameFor(model => model.Vacuna)
         </dt>
         <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.VacunaRefId)
+            @Html.DisplayFor(model => model.Vacuna.Id)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Enfermedad)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Enfermedad.Id)
         </dd>
         <dt class = "col-sm-2">
             @Html.DisplayNameFor(model => model.FechaRegistro)

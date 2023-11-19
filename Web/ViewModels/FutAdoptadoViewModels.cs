@@ -13,14 +13,11 @@ namespace Web.ViewModels
         [Display(Name = "Descripción")]
         public string? Descripcion { get; set; }
 
-        [Display(Name = "Imagem Pelicula")]
+        [Display(Name = "Imagem Gato")]
         public IFormFile Imagem { get; set; }
 
         [Display(Name = "Imagen")]
-        public string? ImagemPelicula { get; set; }
-
-        [Display(Name = "Clasificación")]
-        public int? Clasificacion { get; set; }
+        public string? ImagemGato { get; set; }
 
         [Display(Name = "Género")]
         public int? GeneroRefId { get; set; }
@@ -30,6 +27,9 @@ namespace Web.ViewModels
 
         [Display(Name = "Vacuna")]
         public int? VacunaRefId { get; set; }
+
+        [Display(Name = "Enfermedad")]
+        public int? EnfermedadRefId { get; set; }
 
         [Display(Name = "Fecha Registro")]
         [DataType(DataType.Date)]
