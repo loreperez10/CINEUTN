@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "l5Cxr6c4azNErZMwpCuOghzWhWUPNfmampkewF/zaWU=",
+  "Hash": "fXqe1iT6cTqaL5Y9QO5lMeAx8i+p+ZnaZiH3fzx87Ws=",
   "Source": "Web",
   "BasePath": "_content/Web",
   "Mode": "Default",
@@ -1120,6 +1120,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "C:\\Users\\usuario\\OneDrive\\Escritorio\\Laboratorio 4\\CloneAdopcion\\CINEUTN\\Web\\wwwroot\\images\\f73d2f7d-c5b1-4a60-8af9-509b23c1859b_WhatsApp Image 2023-11-15 at 20.28.13 (1).jpeg",
+      "SourceId": "Web",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\usuario\\OneDrive\\Escritorio\\Laboratorio 4\\CloneAdopcion\\CINEUTN\\Web\\wwwroot\\",
+      "BasePath": "_content/Web",
+      "RelativePath": "images/f73d2f7d-c5b1-4a60-8af9-509b23c1859b_WhatsApp Image 2023-11-15 at 20.28.13 (1).jpeg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\f73d2f7d-c5b1-4a60-8af9-509b23c1859b_WhatsApp Image 2023-11-15 at 20.28.13 (1).jpeg"
     },
     {
       "Identity": "C:\\Users\\usuario\\OneDrive\\Escritorio\\Laboratorio 4\\CloneAdopcion\\CINEUTN\\Web\\wwwroot\\images\\WhatsApp Image 2023-11-02 at 15.16.55.jpeg",
