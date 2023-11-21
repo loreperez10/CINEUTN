@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "RWQF5ErJFOxkWvioUqmbRtMzvqWlKMYRRz265935eWA=",
+  "Hash": "l5Cxr6c4azNErZMwpCuOghzWhWUPNfmampkewF/zaWU=",
   "Source": "Web",
   "BasePath": "_content/Web",
   "Mode": "Default",
@@ -1069,6 +1069,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\usuario\\OneDrive\\Escritorio\\Laboratorio 4\\CloneAdopcion\\CINEUTN\\Web\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\Web.bundle.scp.css"
+    },
+    {
+      "Identity": "C:\\Users\\usuario\\OneDrive\\Escritorio\\Laboratorio 4\\CloneAdopcion\\CINEUTN\\Web\\wwwroot\\archivos\\MaloAdoptante.xlsx",
+      "SourceId": "Web",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\usuario\\OneDrive\\Escritorio\\Laboratorio 4\\CloneAdopcion\\CINEUTN\\Web\\wwwroot\\",
+      "BasePath": "_content/Web",
+      "RelativePath": "archivos/MaloAdoptante.xlsx",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\archivos\\MaloAdoptante.xlsx"
     },
     {
       "Identity": "C:\\Users\\usuario\\OneDrive\\Escritorio\\Laboratorio 4\\CloneAdopcion\\CINEUTN\\Web\\wwwroot\\css\\site.css",

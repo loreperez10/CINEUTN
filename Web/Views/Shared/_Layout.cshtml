@@ -10,37 +10,41 @@
 </head>
 <body>
     <header>
-        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
+        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-yellow border-bottom box-shadow mb-3">
             <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
                 <ul class="navbar-nav flex-grow-1">
+                    
                     <div class="dropdown">
-                        <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        <button class="btn btn-dark dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
                             Fut.Adoptados
                         </button>
                         <ul class="dropdown-menu" style="">
-                            <li><a class="dropdown-item" asp-area="" asp-controller=FutAdoptados asp-action="Index">Fut.Adoptados</a></li>
+                           
+                            <li><a class="dropdown-item" asp-area="" asp-controller="FutAdoptados" asp-action="Index">Fut.Adoptados</a></li>
                             <li><a class="dropdown-item" asp-area="" asp-controller="Generos" asp-action="Index">Género</a></li>
                             <li><a class="dropdown-item" asp-area="" asp-controller="Vacunas" asp-action="Index">Vacunas</a></li>
-                            <li><a class="dropdown-item" asp-area="" asp-controller="Edades" asp-action="Index">Edades</a></li>                           
+                            <li><a class="dropdown-item" asp-area="" asp-controller="Edades" asp-action="Index">Edades</a></li>
                             <li><a class="dropdown-item" asp-area="" asp-controller="Enfermedades" asp-action="Index">Enfermedades</a></li>
                             <li>----------------------</li>
                             <li><a class="dropdown-item" asp-area="" asp-controller="Home" asp-action="SignOut">Salir</a></li>
                         </ul>
                     </div>
 
+                   
                     &nbsp;
 
+                 
                     <div class="dropdown">
-                        <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        <button class="btn btn-dark dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
                             Fut.Adoptantes/Socios
                         </button>
                         <ul class="dropdown-menu" style="">
+                            
                             <li><a class="dropdown-item" asp-area="" asp-controller="FutAdoptantes" asp-action="Index">Fut.Adoptantes</a></li>
                             <li><a class="dropdown-item" asp-area="" asp-controller="MaloAdoptantes" asp-action="Index">Malo Adoptantes</a></li>
                             <li><a class="dropdown-item" asp-area="" asp-controller="Socios" asp-action="Index">Socios</a></li>
                         </ul>
                     </div>
-
                 </ul>
             </div>
         </nav>

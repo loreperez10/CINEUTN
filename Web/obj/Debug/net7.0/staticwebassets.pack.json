@@ -5,6 +5,10 @@
       "PackagePath": "staticwebassets\\Web.bundle.scp.css"
     },
     {
+      "Id": "C:\\Users\\usuario\\OneDrive\\Escritorio\\Laboratorio 4\\CloneAdopcion\\CINEUTN\\Web\\wwwroot\\archivos\\MaloAdoptante.xlsx",
+      "PackagePath": "staticwebassets\\archivos\\MaloAdoptante.xlsx"
+    },
+    {
       "Id": "C:\\Users\\usuario\\OneDrive\\Escritorio\\Laboratorio 4\\CloneAdopcion\\CINEUTN\\Web\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },

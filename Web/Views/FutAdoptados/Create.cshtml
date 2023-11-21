@@ -4,11 +4,13 @@
     ViewData["Title"] = "Create";
 }
 
-<h1>Crear nuevo</h1>
+<div class="text-center">
+
+<h1>Nuevo</h1>
 
 <h4>Futuro Adoptado</h4>
 <hr />
-<div class="row">
+    <div class="row justify-content-center formulario">
     <div class="col-md-4">
         <form asp-action="Create">
             <div asp-validation-summary="ModelOnly" class="text-danger"></div>
@@ -20,7 +22,7 @@
             <div class="form-group">
                 <label asp-for="Imagem" class="control-label"></label>
                 <div class="custom-file">
-                    <input asp-for="Imagem" src ="~/images/" class="custom-file-input" id="customFile">
+                    <input asp-for="Imagem" src ="~/images/WhatsApp Image 2023-11-02 at 15.16.55.jpeg" class="custom-file-input" id="customFile">
                     <label class="custom-file-label" for="customFile">Seleccione el archivo</label>
                 </div>
                 <span asp-validation-for="Imagem" class="text-danger"></span>
@@ -51,6 +53,7 @@
             </div>
         </form>
     </div>
+</div>
 </div>
 
 <div>
