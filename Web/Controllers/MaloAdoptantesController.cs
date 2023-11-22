@@ -205,7 +205,7 @@ namespace Web.Controllers
                     lista.Add(new MaloAdoptante
                     {
                         NombreyApellido = fila.GetCell(0).ToString(),
-                        Direccion = fila.GetCell(0).ToString(),                      
+                        Direccion = fila.GetCell(1).ToString(),                      
                         FechaRegistro = DateTime.Now
 
                     });
@@ -252,7 +252,7 @@ namespace Web.Controllers
                     lista.Add(new MaloAdoptante
                     {
                         NombreyApellido = fila.GetCell(0).ToString(),
-                        Direccion = fila.GetCell(0).ToString(),
+                        Direccion = fila.GetCell(1).ToString(),
                         FechaRegistro = DateTime.Now
 
                     });

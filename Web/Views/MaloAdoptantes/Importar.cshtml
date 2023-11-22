@@ -38,7 +38,8 @@
                             <thead>
                                 <tr>
                                     <th>NombreyApellido</th>
-                                    <th>Direccion</th>
+                                    <th>Direccion</th>  
+                                   
                                 </tr>
                             </thead>
                             <tbody>
@@ -74,7 +75,7 @@
                 document.getElementById("importStatus").textContent = "";
                 const formData = new FormData()
                 formData.append("ArchivoExcel", input.files[0])
-                fetch("/MaloAdoptante/MostrarDatos",
+                fetch("/MaloAdoptantes/MostrarDatos",
                     {
                         method: "POST",
                         body: formData
@@ -84,8 +85,8 @@
                         dataJson.forEach((item) => {
                             $("#tbData tbody").append(
                                 $("<tr>").append(
-                                    $("<td>").text(item.nombreyapellido),
-                                    $("<td>").text(item.direccion),
+                                    $("<td>").text(item.nombreyApellido),
+                                    $("<td>").text(item.direccion),                                   
 
                                 )
                             )
@@ -107,7 +108,7 @@
 
                 formData.append("ArchivoExcel", input.files[0])
 
-                fetch("/MaloAdopante/EnviarDatos", {
+                fetch("/MaloAdopantes/EnviarDatos", {
                     method: "POST",
                     body: formData
                 })

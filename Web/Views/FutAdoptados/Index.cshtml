@@ -39,17 +39,14 @@
                 <td>
                     <img src="~/images/@item.ImagemGato"
                          class="rounded-start"
-                         height="200" width="200"
+                         height="180" width="180"
                      asp-append-version="true" />
                     <br>
                     @item.Descripcion
                 </td>
-
+                  
             <td>
-                @Html.DisplayFor(modelItem => item.Descripcion)
-            </td>          
-            <td>
-                @Html.DisplayFor(modelItem => item.Genero.Descripcion)
+                    @Html.DisplayFor(modelItem => item.Genero.Descripcion)
             </td>
             <td>
                 @Html.DisplayFor(modelItem => item.Edad.Descripcion)
@@ -58,7 +55,7 @@
                 @Html.DisplayFor(modelItem => item.Vacuna.Descripcion)
             </td>
             <td>
-                @Html.DisplayFor(modelItem => item.Enfermedad.Descripcion)
+                    @Html.DisplayFor(modelItem => item.Enfermedad.Descripcion)
             </td>
             <td>
                 @Html.DisplayFor(modelItem => item.FechaRegistro)
